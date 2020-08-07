@@ -1,0 +1,13 @@
+---
+name: SOFTWARE_NAME
+category: Interactive Apps
+subcategory: GUIs
+role: batch_connect
+description: |
+  This app will launch a [SOFTWARE_NAME] on the [Cheaha]. You will be able
+  to interact with the IGV through a VNC session.
+
+  [SOFTWARE_NAME]: SOFTWARE_LINK
+  [Cheaha]: https://docs.uabgrid.uab.edu
+
+  # NOTE: Please change SOFTWARE_NAME and SOFTWARE_LINK appropriately
