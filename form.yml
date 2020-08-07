@@ -32,10 +32,10 @@ attributes:
 
   # version:
   #   widget: select
-  #   label: "IGV version"
-  #   help: "This defines the version of IGV you want to load."
+  #   label: "SOFTWARE_NAME version"
+  #   help: "This defines the version of SOFTWARE_NAME you want to load."
   #   options:
-  #     - [ "2.5.0-Java-11", "IGV/2.5.0-Java-11" ]
+  #     - [ "display_version", "corresponding_cheaha_module" ]
 
 form:
   - version
