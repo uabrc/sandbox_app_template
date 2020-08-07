@@ -34,7 +34,7 @@ Go to your DATA_USER/ondemand/dev directory, and clone this repo there
 Use git to clone this app:
 
 ```sh
-git clone https://github.com/uabrc/sandbox_app_template.git
+git clone https://github.com/uabrc/sandbox_app_template.git SOFTWARE_NAME
 ```
 
 Open [manifest.yml](manifest.yml) file and change **SOFTWARE_NAME** and **SOFTWARE_LINK** variables appropriately.
