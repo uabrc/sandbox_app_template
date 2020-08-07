@@ -34,12 +34,12 @@ Go to your DATA_USER/ondemand/dev directory, and clone this repo there
 Use git to clone this app:
 
 ```sh
-git clone
+git clone https://github.com/uabrc/sandbox_app_template.git
 ```
 
-Open #manifest.yml file and change SOFTWARE_NAME and SOFTWARE_LINK variables appropriately.
+Open [manifest.yml](manifest.yml) file and change **SOFTWARE_NAME** and **SOFTWARE_LINK** variables appropriately.
 
-Open #form.yml, and uncomment version section:
+Open [form.yml](form.yml), and uncomment version section:
 
 ```
  version:
@@ -50,7 +50,7 @@ Open #form.yml, and uncomment version section:
       - [ "display_version", "corresponding_cheaha_module" ]
 ```
 
-NOTE: Change SOFTWARE_NAME appropriately. Under ""options"" change """display_version""" to the the version that you want to display on teh form, and change """corresponding_cheaha_module""" to matching module name on cheaha.
+NOTE: Change **SOFTWARE_NAME** appropriately. Under **options** change **display_version** to the the version that you want to display on teh form, and change **_corresponding_cheaha_module_** to matching module name on cheaha.
 For example, to load FSL version 6.0.3, you can change the above to :
 
 ```
@@ -62,7 +62,7 @@ For example, to load FSL version 6.0.3, you can change the above to :
       - [ "6.0.3", "FSL/6.0.3" ]
 ```
 
-Open #template/script.sh.erb , and at end add the execute command to launch GUI app.
+Open [script.sh.erb](template/script.sh.erb) , and at end add the execute command to launch GUI app.
 For example, to launch FSL, at the end I'll add
 
 ```
@@ -70,7 +70,7 @@ For example, to launch FSL, at the end I'll add
 fsl
 ```
 
-Change """icon.png""" to appropriate Software logo
+Change [icon.png](icon.png) to appropriate Software logo
 
 Your Dev app should be available now, for you to launch.
 
@@ -78,7 +78,7 @@ Again, you do not need to restart the app as it isn't a Passenger app.
 
 ## Contributing
 
-1. Fork it ( https://github.com/OSC/bc_osc_matlab/fork )
+1. Fork it ( https://github.com/uabrc/sandbox_app_template.git )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
